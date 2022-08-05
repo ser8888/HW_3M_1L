@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7068A74C289DB63100F02C54 /* AnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7068A74B289DB63100F02C54 /* AnimationModel.swift */; };
 		7F735EDE289CF72A005F2D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F735EDD289CF72A005F2D77 /* AppDelegate.swift */; };
 		7F735EE0289CF72A005F2D77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F735EDF289CF72A005F2D77 /* SceneDelegate.swift */; };
-		7F735EE2289CF72A005F2D77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F735EE1289CF72A005F2D77 /* ViewController.swift */; };
+		7F735EE2289CF72A005F2D77 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F735EE1289CF72A005F2D77 /* MainViewController.swift */; };
 		7F735EE5289CF72A005F2D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F735EE3289CF72A005F2D77 /* Main.storyboard */; };
 		7F735EE7289CF736005F2D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F735EE6289CF736005F2D77 /* Assets.xcassets */; };
 		7F735EEA289CF736005F2D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F735EE8289CF736005F2D77 /* LaunchScreen.storyboard */; };
-		7F735EF3289CF78B005F2D77 /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = 7F735EF2289CF78B005F2D77 /* SpringAnimation */; };
+		7F735EF3289CF78B005F2D77 /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = 7F735EF2289CF78B005F2D77 /* SpringAnimation */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7068A74B289DB63100F02C54 /* AnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModel.swift; sourceTree = "<group>"; };
 		7F735EDA289CF72A005F2D77 /* HW_3M_1L.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_3M_1L.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F735EDD289CF72A005F2D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F735EDF289CF72A005F2D77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7F735EE1289CF72A005F2D77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F735EE1289CF72A005F2D77 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7F735EE4289CF72A005F2D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F735EE6289CF736005F2D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F735EE9289CF736005F2D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,7 +62,8 @@
 			children = (
 				7F735EDD289CF72A005F2D77 /* AppDelegate.swift */,
 				7F735EDF289CF72A005F2D77 /* SceneDelegate.swift */,
-				7F735EE1289CF72A005F2D77 /* ViewController.swift */,
+				7F735EE1289CF72A005F2D77 /* MainViewController.swift */,
+				7068A74B289DB63100F02C54 /* AnimationModel.swift */,
 				7F735EE3289CF72A005F2D77 /* Main.storyboard */,
 				7F735EE6289CF736005F2D77 /* Assets.xcassets */,
 				7F735EE8289CF736005F2D77 /* LaunchScreen.storyboard */,
@@ -146,7 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F735EE2289CF72A005F2D77 /* ViewController.swift in Sources */,
+				7068A74C289DB63100F02C54 /* AnimationModel.swift in Sources */,
+				7F735EE2289CF72A005F2D77 /* MainViewController.swift in Sources */,
 				7F735EDE289CF72A005F2D77 /* AppDelegate.swift in Sources */,
 				7F735EE0289CF72A005F2D77 /* SceneDelegate.swift in Sources */,
 			);
