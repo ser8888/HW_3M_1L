@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		7068A74C289DB63100F02C54 /* AnimationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7068A74B289DB63100F02C54 /* AnimationTypes.swift */; };
 		7F225EE2289DBC4E0051595F /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F225EE1289DBC4E0051595F /* Animation.swift */; };
+		7F225EE5289DCC870051595F /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = 7F225EE4289DCC870051595F /* SpringAnimation */; settings = {ATTRIBUTES = (Required, ); }; };
 		7F735EDE289CF72A005F2D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F735EDD289CF72A005F2D77 /* AppDelegate.swift */; };
 		7F735EE0289CF72A005F2D77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F735EDF289CF72A005F2D77 /* SceneDelegate.swift */; };
 		7F735EE2289CF72A005F2D77 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F735EE1289CF72A005F2D77 /* MainViewController.swift */; };
 		7F735EE5289CF72A005F2D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F735EE3289CF72A005F2D77 /* Main.storyboard */; };
 		7F735EE7289CF736005F2D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F735EE6289CF736005F2D77 /* Assets.xcassets */; };
 		7F735EEA289CF736005F2D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F735EE8289CF736005F2D77 /* LaunchScreen.storyboard */; };
-		7F735EF3289CF78B005F2D77 /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = 7F735EF2289CF78B005F2D77 /* SpringAnimation */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F735EF3289CF78B005F2D77 /* SpringAnimation in Frameworks */,
+				7F225EE5289DCC870051595F /* SpringAnimation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 			);
 			name = HW_3M_1L;
 			packageProductDependencies = (
-				7F735EF2289CF78B005F2D77 /* SpringAnimation */,
+				7F225EE4289DCC870051595F /* SpringAnimation */,
 			);
 			productName = HW_3M_1L;
 			productReference = 7F735EDA289CF72A005F2D77 /* HW_3M_1L.app */;
@@ -124,6 +124,7 @@
 			mainGroup = 7F735ED1289CF729005F2D77;
 			packageReferences = (
 				7F735EF1289CF78B005F2D77 /* XCRemoteSwiftPackageReference "SpringAnimation" */,
+				7F225EE3289DCC870051595F /* XCRemoteSwiftPackageReference "SpringAnimation" */,
 			);
 			productRefGroup = 7F735EDB289CF72A005F2D77 /* Products */;
 			projectDirPath = "";
@@ -378,6 +379,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		7F225EE3289DCC870051595F /* XCRemoteSwiftPackageReference "SpringAnimation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LexDeBash/SpringAnimation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
 		7F735EF1289CF78B005F2D77 /* XCRemoteSwiftPackageReference "SpringAnimation" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/LexDeBash/SpringAnimation";
@@ -389,7 +398,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7F735EF2289CF78B005F2D77 /* SpringAnimation */ = {
+		7F225EE4289DCC870051595F /* SpringAnimation */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7F735EF1289CF78B005F2D77 /* XCRemoteSwiftPackageReference "SpringAnimation" */;
 			productName = SpringAnimation;
