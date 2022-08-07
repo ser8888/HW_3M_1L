@@ -11,8 +11,8 @@ class MainViewController: UIViewController {
     
     @IBOutlet weak var buttonLabel: UIButton!
     @IBOutlet weak var animationView: SpringView!
-    @IBOutlet weak var animationLabel: UILabel!
     
+    @IBOutlet weak var animationLabel: UILabel!
     @IBOutlet weak var curveLavle: UILabel!
     @IBOutlet weak var forceLabel: UILabel!
     @IBOutlet weak var durationLabel: UILabel!
@@ -29,10 +29,10 @@ class MainViewController: UIViewController {
         delayLabel.text = "delay --  " + String(format: "%.01f", (animation.delay))
         
         animationView.animation = animation.name
-        animationView.force = CGFloat(animation.force)
+        animationView.force = animation.force
         animationView.curve = animation.curve
-        animationView.delay = CGFloat(animation.delay)
-        animationView.duration = CGFloat(animation.duration)
+        animationView.delay = animation.delay
+        animationView.duration = animation.duration
         animationView.animate()
         
         animation = Animation.getNextAnimation()

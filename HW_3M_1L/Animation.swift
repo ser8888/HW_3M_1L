@@ -6,18 +6,18 @@
 //
 struct Animation {
     
-    var name: String
-    var curve: String
-    var force: Float
-    var duration: Float
-    var delay: Float
+    let name: String
+    let curve: String
+    let force: Double
+    let duration: Double
+    let delay: Double
     
     static func getNextAnimation() -> Animation {
         Animation(name: AnimationTypes.shared.animationName.randomElement() ?? "shake",
                   curve: AnimationTypes.shared.curveName.randomElement() ?? "spring",
-                  force: Float.random(in: 1...3),
-                  duration: Float.random(in: 1...2),
-                  delay: Float.random(in: 0.1...0.4)
+                  force: Double.random(in: 1...3),
+                  duration: Double.random(in: 1...2),
+                  delay: Double.random(in: 0.1...0.4)
         )
     }
 }
